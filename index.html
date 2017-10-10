@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>音乐播放器</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/animate.min.css" />
+</head>
+<!-- 导航区域 -->
+
+<body>
+  <!-- nav -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container top">
+      <!-- logo -->
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand"></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <!-- follow logo -->
+        <ul class="nav navbar-nav">
+          <li role="presentation">
+            <a href="#">PLAYING</a>
+          </li>
+          <li role="presentation">
+            <a href="#">RECENTLY</a>
+          </li>
+          <li role="presentation">
+            <a href="#">
+              <i class="material-icons" style="font-size:16px">add_box</i>
+              ADD TO PLAYERLIST
+              <span class="badge">3</span>
+            </a>
+          </li>
+        </ul>
+        <!-- float right -->
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <i class="material-icons" style="font-size:16px">person</i>
+                LOGIN</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- player -->
+  <section class="banner col-md-12" style="height: 600px">
+    <div class="wrapper imgdo1 ">
+      <!-- CD image -->
+      <div class="cdImage wow bounceInUp" data-wow-duration="1.5s" data-wow-offset="1">
+        <div class="imgdo2"></div>
+      </div>
+      <!-- CD information -->
+      <div class="music-info wow bounceInUp" data-wow-delay="0.8s">
+        <!-- singer information -->
+        <div class="content">
+          <audio src=""></audio>
+          <div class="music-massage">
+            <p class="musicname" title=""></p>
+            <p class="musicer" title=""></p>
+          </div>
+        </div>
+
+        <div class="music-icon">
+          <a class="m-icon m-fenxiang colored" href="http://service.weibo.com/share/share.php?title=#_loginLayer_1466697157538" target="new"></a>
+          <span class="m-icon m-star colored"></span>
+          <span class="m-icon m-heart colored"></span>
+        </div>
+        <!-- player control -->
+        <div class="music-control">
+          <i class="material-icons btn3">skip_previous</i>
+          <span class="glyphicon glyphicon-play btn1" title="播放/暂停"></span>
+          <i class="material-icons btn3" title="下一曲">skip_next</i>
+        </div>
+        <!-- progress -->
+        <span class="basebar">
+          <span class="progressbar"></span>
+        </span>
+      </div>
+    </div>
+
+    <!-- lyric -->
+    <div class="music-lyric hidden wow bounceInRight">
+      <div class="lyric-view">
+        <ul class="lyric"></ul>
+      </div>
+
+    </div>
+    <div class="lyricPanel wow bounceInUp">
+      <div class="test2 active"></div>
+      <div class="test1"></div>
+    </div>
+  </section>
+
+  <!-- list -->
+  <section class="list">
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li role="presentation">
+          <a href="#">SOCIAL BOARD</a>
+        </li>
+        <li class="active" role="presentation">
+          <a href="#">MY PLAYLIST</a>
+        </li>
+        <li role="presentation">
+          <a href="#">MY DOWNLOADS</a>
+        </li>
+        <li role="presentation">
+          <a href="#">INVITATIONS</a>
+        </li>
+      </ul>
+      <div class="list-content">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="left-content">
+              <div class="content-header">
+                <div class="title">
+                  <h2>Comments </h2>
+                  <h4>(23)</h4>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="material-icons" style="font-size:14px">add_box</i>
+                      PLAYERLIST
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="content-list wow bounceInLeft">
+                <div class="list-item">
+                  <img src="./images/avator/1.jpg" alt="avator">
+                  <div class="info">
+                    <div class="info-title">
+                      <h4> Wayne CRAIG </h4>
+                      <span>REPLY</span>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas velit modi porro quaerat dolorum alias
+                      </p>
+                    </div>
+                    <div class="info-content"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-list wow bounceInLeft" data-wow-delay="0.3s">
+                <div class="list-item">
+                  <img src="./images/avator/2.jpg" alt="avator">
+                  <div class="info">
+                    <div class="info-title">
+                      <h4> Wayne CRAIG </h4>
+                      <span>REPLY</span>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas velit modi porro quaerat dolorum alias
+                      </p>
+                    </div>
+                    <div class="info-content"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-list wow bounceInLeft" data-wow-delay="0.6s">
+                <div class="list-item">
+                  <img src="./images/avator/3.jpg" alt="avator">
+                  <div class="info">
+                    <div class="info-title">
+                      <h4> Wayne CRAIG </h4>
+                      <span>REPLY</span>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas velit modi porro quaerat dolorum alias
+                      </p>
+                    </div>
+                    <div class="info-content"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+            <div class="col-md-6">
+              <div class="right-content">
+
+                <div class="content-header">
+                  <div class="title">
+                    <h2>Playing Next</h2>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="material-icons" style="font-size: 12px;">view_list</i>
+                        Full list
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="album-img wow bounceInUp" data-wow-duration="2s">
+                  <img src="./images/Album/1.jpg" alt="album">
+                  <img src="./images/Album/2.jpg" alt="album">
+                  <img src="./images/Album/3.jpg" alt="album">
+                  <img src="./images/Album/4.jpg" alt="album">
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-6">
+              <div class="right-content">
+
+                <div class="content-header">
+                  <div class="title">
+                    <h2>Miss Album</h2>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="material-icons" style="font-size: 12px;">view_list</i>
+                        Full list
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="album-img wow bounceInUp" data-wow-duration="2s">
+                  <img src="./images/Album/8.jpg" alt="album">
+                  <img src="./images/Album/5.jpg" alt="album">
+                  <img src="./images/Album/6.jpg" alt="album">
+                  <img src="./images/Album/7.jpg" alt="album">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script>
+    $(function () {
+      new WOW().init();
+    })
+  </script>
+</body>
+
+</html>
