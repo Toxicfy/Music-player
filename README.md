@@ -5,7 +5,7 @@
 
 **预览图**：
 
-![enter image description here](http://ovqjk8s4c.bkt.clouddn.com/music-playergif.gif)
+![enter image description here](http://ovqjk8s4c.bkt.clouddn.com/%E4%B8%8B%E8%BD%BD.png)
 
 #### 用到的技术：
 
