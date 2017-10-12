@@ -2,6 +2,7 @@
 > 一个响应式音乐播放页面；
 
 [预览demo](http://htmlpreview.github.io/?https://github.com/Toxicfy/Music-player/blob/master/index.html)
+（使用的是htmlpreview所以最好用chrome打开，不然有时候css会乱）
 
 **预览图**：
 
