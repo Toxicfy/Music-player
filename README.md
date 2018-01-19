@@ -1,8 +1,8 @@
 # Music-player
-> 一个响应式音乐播放页面；
+> 一个响应式音乐播放页面（学习jq的练习项目）；
 
-[预览demo](http://htmlpreview.github.io/?https://github.com/Toxicfy/Music-player/blob/master/index.html)
-（使用的是htmlpreview所以最好用chrome打开，不然有时候css会乱，未加载重新刷新页面再次请求数据）
+[预览demo](https://toxicfy.github.io/Music-player/index.html)
+（使用的是网上公开的资源接口，很不稳定，未加载重新刷新页面再次请求数据）
 
 **预览图**：
 
