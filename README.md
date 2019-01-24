@@ -6,7 +6,7 @@
 
 **预览图**：
 
-![enter image description here](http://ovqjk8s4c.bkt.clouddn.com/%E4%B8%8B%E8%BD%BD.png)
+![](https://github.com/Toxicfy/Music-player/blob/master/images/preview.png?raw=true)
 
 #### 用到的技术：
 
